@@ -17,5 +17,12 @@ public class MyController {
         mv.setViewName("hello");
         return mv;
     }
+    
+    @GetMapping("/aboutUs")
+    public String openAboutUsPage()
+    {
+       
+        return "about-us";
+    }
 
 }

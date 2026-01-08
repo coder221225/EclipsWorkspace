@@ -11,5 +11,7 @@
 <a href="helloPage">Open Hello Page</a>
 </br>
 <a href="aboutUs">About Us</a>
+</br>
+<a href="myForm">My Form</a>
 </body>
 </html>
