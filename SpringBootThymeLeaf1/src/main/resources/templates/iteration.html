@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="ISO-8859-1">
+		<title></title>
+		<link rel="stylesheet" href="css/style.css"/>
+	</head>
+	<body class="body_bg">
+		<h2>Iteration(th:each):</h2>
+		<ul>
+			<li th:each="no:${list}">
+				<span th:text="${no}"></span>
+			</li>
+			
+		</ul>
+	</body>
+</html>

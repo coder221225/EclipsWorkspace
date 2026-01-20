@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="ISO-8859-1">
+		<title></title>
+		<link rel="stylesheet" href="css/style.css"/>
+	</head>
+	<body class="body_bg">
+		<h2>Conditonal(if):</h2>
+		<sapan th:if="${number1>number2}">
+			<span th:text="${number1}+'is greater than '+${number2}"></span>
+		</sapan>
+		<sapan th:if="${number2>number1}">
+					<span th:text="${number2}+'is greater than '+${number1}"></span>
+				</sapan>
+	</body>
+</html>
